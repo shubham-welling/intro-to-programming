@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "References.Api", "References.Api\References.Api.csproj", "{38D39086-B039-480B-8BA8-FDFA70CD836E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "References.Tests", "References.Tests\References.Tests.csproj", "{1CFCBF09-DB7A-4484-AEDB-E0BC10066EE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38D39086-B039-480B-8BA8-FDFA70CD836E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D39086-B039-480B-8BA8-FDFA70CD836E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D39086-B039-480B-8BA8-FDFA70CD836E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D39086-B039-480B-8BA8-FDFA70CD836E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CFCBF09-DB7A-4484-AEDB-E0BC10066EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CFCBF09-DB7A-4484-AEDB-E0BC10066EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CFCBF09-DB7A-4484-AEDB-E0BC10066EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CFCBF09-DB7A-4484-AEDB-E0BC10066EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07C760BE-4262-4F01-B5EE-5D5710E2D866}
+	EndGlobalSection
+EndGlobal
