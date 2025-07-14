@@ -12,3 +12,4 @@ Write enough tests that you and your team has confidence that the software works
 
 
 
+## Prefer Composition over Inheritance

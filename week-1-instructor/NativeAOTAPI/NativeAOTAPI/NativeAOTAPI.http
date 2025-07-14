@@ -1,0 +1,6 @@
+@NativeAOTAPI_HostAddress = http://localhost:5219
+
+GET {{NativeAOTAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

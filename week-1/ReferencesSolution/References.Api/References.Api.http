@@ -7,3 +7,15 @@ Accept: application/json
 
 GET {{References.Api_HostAddress}}/links
 Accept: application/json
+
+###
+
+POST {{References.Api_HostAddress}}/links
+Accept: application/json 
+Content-Type: application/json
+{
+    "href": "https://google.com",
+    "description": "Google Search Engine"
+}
+
+###

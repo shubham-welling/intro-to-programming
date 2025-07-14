@@ -29,4 +29,25 @@ public class AddingNumbers
         int answer = a + b;
         Assert.Equal(expected, answer);
     }
+
+    [Fact]
+    public void ObjectEquality()
+    {
+        var dog1 = new Dog { Name = "Fido", Breed = "Cairn Terrier" };
+       var dog2 = new Dog { Name = "Fido", Breed = "Cairn Terrier" };
+        //var dog2 = dog1;
+
+        Assert.Equal(dog1, dog2);
+
+        //Assert.Equal("blah", dog1.ToString());
+    }
+}
+
+
+public record Dog 
+{
+    public string Name { get; set; } = string.Empty;
+    public string Breed { get; set; } = string.Empty;
+
+  
 }
